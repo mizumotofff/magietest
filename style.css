@@ -1,0 +1,163 @@
+@font-face {
+  font-family: 'Lato', sans-serif;
+
+}
+
+*{
+  margin:0px;
+  padding:0px;
+}
+body{
+  margin:0px;
+  padding:0px;
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+  transform: rotate(0.1deg);
+  text-shadow: 0 0 0.5px rgba(0,0,0,0.5);
+  animation: fadeIn 4s ease 0s 1 normal;
+}
+
+
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+#le{
+  margin:opx;
+  transform: rotate(0.1deg);
+  text-shadow: 0 0 0.5px rgba(0,0,0,0.5);
+  animation: fadeIn 2s ease 0s 1 normal;
+}
+
+#aa{
+  text-align: center;
+  margin: 0px auto;
+  font-size: 4vw;
+}
+
+hr{
+  border:0;
+  border-top: 0.5px solid;
+  margin: 10px auto;
+}
+
+#message{
+  /* border:0; */
+  /* width:300px;
+  height:300px; */
+  padding:10px;
+  /* border: 0.5px solid; */
+  /* margin:0px auto; */
+  text-align: center;
+}
+
+#rounders{
+  width:80%;
+  /* margin:0px 50px 0px 50px; */
+}
+
+#round{
+  text-align: center;
+  position: relative;
+}
+
+#round #upper{
+  /* text-align: center; */
+  margin : auto;
+  position: absolute;
+  font-size: 6vw;
+  color:white;
+  top: -2%;
+  left: 11%;
+
+}
+
+#round #lower{
+  /* text-align: center; */
+  margin : auto;
+  position: absolute;
+  font-size: 6vw;
+  color:white;
+  top: 78%;
+  left: 49%;
+
+}
+
+#about{
+  /* border:0; */
+  /* width:980px; */
+  height:80%;
+  padding:10px;
+  /* border: 0.5px solid; */
+  margin:0px auto;
+  line-height: 25px;
+  /* text-align: center; */
+}
+
+@media screen and (min-width:1080px){
+    #stage{
+      float: right;
+      margin-top: 40PX;
+    }
+
+    #aboutTitle{
+      margin: 0px 0px 20px;
+    }
+
+    #address{
+      width:900px;
+    }
+
+    #about{
+      width: 980px;
+    }
+
+}
+
+@media screen and (max-width:1079px){
+    #stage{
+      top: -40PX;
+      margin: auto;
+      display: block;
+  margin:auto;
+    }
+
+    #aboutTitle{
+      /* margin: 0px auto; */
+      text-align: center;
+    }
+
+    #address{
+      width:500px;
+    }
+
+    #about{
+      width: 500px;
+    }
+
+}
+
+#aboutTitle{
+  margin: 0px 0px 20px;
+}
+
+#address{
+  margin: 20px auto 50px;
+  padding-bottom: 1px;
+  /* width:900px; */
+  line-height: 30px;
+  text-align: center;
+  background-color: #ddd;
+  border-radius: 20px;
+}
+
+#twitter{
+  /* float: right; */
+  margin: 20px 0px 30px;
+}
+
+#con{
+  padding: 20px 0px 0px;
+  margin:60PX  0px 0px;
+}
