@@ -138,6 +138,29 @@ hr{
 
 }
 
+@media screen and (max-width:414px){
+    #stage{
+      top: -40PX;
+      margin: auto;
+      display: block;
+  margin:auto;
+    }
+
+    #aboutTitle{
+      /* margin: 0px auto; */
+      text-align: center;
+    }
+
+    #address{
+      width:400px;
+    }
+
+    #about{
+      width: 400px;
+    }
+
+}
+
 #aboutTitle{
   margin: 0px 0px 20px;
 }
