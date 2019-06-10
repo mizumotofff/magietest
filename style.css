@@ -160,6 +160,9 @@ hr{
       width: 320px;
     }
 
+    #aboutP{
+      font-size: 10px;
+    }
 }
 
 #aboutTitle{
